@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1>Calculator of salary</h1>
+        </nav>
+        <div class="wrap">
+            <label>Price hour
+            <input class="payhour size" type="text">
+            </label>
+            <label>Hours a day
+            <input class="dayhour size" type="text">
+            </label>
+            <label>Days a month
+            <input class="daymonth size" type="text">
+            </label>
+            <label>tax
+            <input class="size" id="tax" type="text" placeholder="tax%">
+            </label>
+            <button id="calc">calculate</button>
+        </div>
+        <div class="wrap2">
+            
+            <label>Total pay
+            <input id="display" type="text" readonly>
+            </label>
+            <label>Taxes paid
+            <input id="display1" type="text" readonly>
+            </label>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
